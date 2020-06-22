@@ -1,0 +1,12 @@
+@mixin flex($direction) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: $direction;
+    };
+
+$phone-width: 599px;
+$tablet-width: 900px;
+$tablet-landscape:1200px;
+$desktop: 1800px;
+$big-desktop-min:1800px;
