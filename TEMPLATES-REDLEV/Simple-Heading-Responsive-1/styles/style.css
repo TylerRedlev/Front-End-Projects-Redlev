@@ -40,7 +40,7 @@ header #slideout-menu {
 }
 
 header #slideout-menu ul {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 90%;
   margin: 0 auto;
   display: -webkit-box;
@@ -60,7 +60,7 @@ header #slideout-menu ul li {
   list-style: none;
   padding: 0.3rem 1rem;
   margin: 0.3rem 0;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 header #slideout-menu ul li a {
@@ -70,7 +70,7 @@ header #slideout-menu ul li a {
 header .content-container {
   max-width: 80%;
   margin: 0 auto;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   max-height: 12vh;
   min-height: 5vh;
   display: -webkit-box;
@@ -91,7 +91,7 @@ header .content-container div#logo-img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 header .content-container div#logo-img img {
@@ -107,7 +107,7 @@ header .content-container div#logo-img img:hover {
 }
 
 header .content-container nav {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   max-height: inherit;
   width: 80%;
   -webkit-box-pack: end;
@@ -164,7 +164,7 @@ header .content-container nav ul li {
   font-size: 1.33em;
   margin-left: 1.5rem;
   color: black;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -229,7 +229,7 @@ $big-desktop-min:1800px;
 
 @media only screen and (min-width: 599px) and (max-width: 900px) {
   header {
-    background-image: none;
+    /*background-image: none;*/
   }
   header .content-container #logo-img {
     z-index: 100;
@@ -244,8 +244,8 @@ $big-desktop-min:1800px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border: 1px solid red;
-    width: 10%;
+    /*border: 1px solid red;*/
+    width: 20%;
     position: absolute;
     right: 0;
     -webkit-box-align: center;
@@ -257,9 +257,6 @@ $big-desktop-min:1800px;
 }
 
 @media only screen and (max-width: 599px) {
-  header {
-    background-image: none;
-  }
   header .content-container #logo-img {
     z-index: 100;
   }
@@ -273,13 +270,14 @@ $big-desktop-min:1800px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border: 1px solid red;
-    width: 10%;
+    /*border: 1px solid red;*/
+    width: 20%;
     position: absolute;
     right: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    border-radius: 50%;
     -webkit-transition: 0.4s;
     transition: 0.4s;
   }
