@@ -57,6 +57,12 @@ footer #footer-container #footer-menu nav ul {
   list-style-type: none;
 }
 
+footer #footer-container #footer-menu nav ul li {
+  font-size: 1.3em;
+  margin-top: 0.5rem;
+  border: 1px solid red;
+}
+
 footer #footer-container .footer-contact {
   width: 30%;
   border: 1px solid red;

@@ -47,6 +47,11 @@ footer {
                 margin: 1rem 0.5rem;
                 ul {
                     list-style-type: none;
+                    li {
+                        font-size: 1.3em;
+                        margin-top: 0.5rem;
+                        border: $borderRed;
+                    }
                 }
 
             }
